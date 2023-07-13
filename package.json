@@ -1,0 +1,57 @@
+{
+    "name": "@babylonjs/thin-engine-triangle",
+    "version": "1.0.0",
+    "description": "Babylonjs Demo of using thinEngine to draw a triangle with effects.",
+    "author": {
+        "name": "Sebastien Vandenberghe"
+    },
+    "contributors": [
+        "Sebastien Vandenberghe"
+    ],
+    "keywords": [
+        "PBR",
+        "Tools",
+        "Texture",
+        "BRDF",
+        "3D",
+        "IBL",
+        "javascript",
+        "html5",
+        "webgl",
+        "webgl2",
+        "webgpu",
+        "babylon"
+    ],
+    "license": "MIT",
+    "readme": "README.md",
+    "typings": "dist/src/index.d.ts",
+    "main": "dist/src/index.js",
+    "files": [
+        "dist/src/**",
+        "README.md",
+        "LICENSE"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sebavan/BabylonjsThinEngineTriangle.git"
+    },
+    "scripts": {
+        "build": "webpack --env=prod",
+        "start": "npx webpack-dev-server --open",
+        "devServer": "npx webpack-dev-server"
+    },
+    "dependencies": {
+        "@babylonjs/core": "^6.11.2"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "raw-loader": "^4.0.2",
+        "source-map-loader": "^4.0.1",
+        "ts-loader": "^9.4.4",
+        "typescript": "^5.1.6",
+        "webpack": "^5.88.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
